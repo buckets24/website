@@ -53,7 +53,7 @@
       </div>
       
       <div on:click={handleMenu}  class="block md:hidden">
-        <img class="max-h-[35px] m-0" src="/assets/menu.svg" alt="Menu" />
+        <img class="max-h-[20px] m-0" src="/assets/menu.svg" alt="Menu" />
       </div>
       {#if isActive}
         <div class="block md:hidden absolute top-0 bottom-0 left-0 right-0 h-screen w-screen bg-light opacity-[.95] flex justify-center items-center">
