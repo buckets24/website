@@ -19,6 +19,12 @@ const Info = [
     title: "Software Engineer",
     pic: "/assets/carlo.jpeg"
   },
+  {
+    name: "Paula Pangan Valdepeñas",
+    title: "UI/UX Designer",
+    pic: "/assets/pau.jpeg"
+  },
+  
 ]
 
 export {
