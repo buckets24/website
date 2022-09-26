@@ -1,5 +1,6 @@
 <script>
 	import Title from '../../Title.svelte';
+  import { Info } from './config';
 </script>
  
  <!-- ABOUT -->
@@ -11,18 +12,16 @@
 
   <!-- CARDS -->
   <div class="bg-dark w-full flex flex-col w-full m-auto lg:w-3/4 lg:flex-row">
-    <div class="flex-1 p-[30px] bg-boxDark border border-solid border-boxDarkHover hover:bg-boxDarkHover">
-      <h4 class="text-light font-primary text-[34px] inline border-b-4 border-solid border-primary">Web Experts</h4>
-      <p class="text-light font-md leading-[26px] font-[100] pt-[20px] m-0">We have a team of web artisans that is well equipped with skills and tools to craft production grade Websites and Web Applications.</p>
+
+    <div class="w-full flex flex-col flex-wrap md:flex-row lg:px-[60px] mx-0 my-auto">
+      {#each Info as { title, description }}
+        <div class="flex-1 p-[30px] bg-boxDark border border-solid border-boxDarkHover hover:bg-boxDarkHover md:min-w-[50%] lg:min-w-[33%%]">
+          <h4 class="text-light font-primary text-[34px] inline border-b-4 border-solid border-primary uppercase">{title}</h4>
+          <p class="text-light font-md leading-[26px] font-[100] pt-[20px] m-0">{description}</p>
+        </div>
+      {/each}
     </div>
-    <div class="flex-1 p-[30px] bg-boxDark border border-solid border-boxDarkHover hover:bg-boxDarkHover">
-      <h4 class="text-light font-primary text-[34px] inline border-b-4 border-solid border-primary">Mobile Experts</h4>
-      <p class="text-light font-md leading-[26px] font-[100] pt-[20px] m-0">We have a team of mobile gurus that is really fluent in developing mobile applications for IOS and Android.</p>
-    </div>
-    <div class="flex-1 p-[30px] bg-boxDark border border-solid border-boxDarkHover hover:bg-boxDarkHover">
-      <h4 class="text-light font-primary text-[34px] inline border-b-4 border-solid border-primary">UI/UX Experts</h4>
-      <p class="text-light font-md leading-[26px] font-[100] pt-[20px] m-0">We have a team of design wizards that is adaptive to different design paradigms for IOS, Android and Web.</p>
-    </div>
+
   </div>
 
     <!-- END OF CARDS -->
