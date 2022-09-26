@@ -20,7 +20,7 @@ const Info = [
     pic: "/assets/carlo.jpeg"
   },
   {
-    name: "Paula Pangan Valdepeñas",
+    name: "Paula Pangan",
     title: "UI/UX Designer",
     pic: "/assets/pau.jpeg"
   },
