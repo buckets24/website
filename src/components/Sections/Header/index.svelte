@@ -41,6 +41,15 @@
             Services
           </a>
         </div>
+        <div class="flex m-0" on:click={() => urlHash = "#team"}>
+          <a
+            class={urlHash === "#services"
+              ? "uppercase font-[700] text-primary p-3 decoration-0"
+              : "uppercase font-[700] text-dark p-3 decoration-0"}
+            href="#team">
+            Team
+          </a>
+        </div>
         <div class="flex m-0" on:click={() => urlHash = "#contact"}>
           <a
             class={urlHash === "#contact"
@@ -76,6 +85,13 @@
                 class={"uppercase font-[700] text-[30px] text-dark p-3 decoration-0"}
                 href="#services">
                 Services
+              </a>
+            </div>
+            <div class="flex m-0" on:click={() => selectView("#team")}>
+              <a
+                class={"uppercase font-[700] text-[30px] text-dark p-3 decoration-0"}
+                href="#team">
+                Team
               </a>
             </div>
             <div class="flex m-0" on:click={() => selectView("#contact")}>

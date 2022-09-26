@@ -3,7 +3,7 @@
   import { Info } from './config'
 </script>
  
-<section class="relative pb-[80px] md:pt-[80px]" id="services">
+<section class="relative pb-[80px] md:pt-[80px]" id="team">
   <div class="flex justify-center flex-col">
     <div class="pt-[120px] pb-[30px]">
       <Title title="our" subtitle="team" />
