@@ -25,6 +25,11 @@ const Info = [
     pic: "/assets/carlo.jpeg"
   },
   {
+    name: "John Aries Malahito",
+    title: "Graphics/Social Media",
+    pic: "/assets/aries.jpg"
+  },
+  {
     name: "Paula Pangan",
     title: "UI/UX Designer",
     pic: "/assets/pau.jpeg"
