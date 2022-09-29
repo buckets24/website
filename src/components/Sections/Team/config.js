@@ -26,7 +26,7 @@ const Info = [
   },
   {
     name: "John Aries Malahito",
-    title: "Graphics/Social Media",
+    title: "Graphics/Social Media Specialist",
     pic: "/assets/aries.jpg"
   },
   {
