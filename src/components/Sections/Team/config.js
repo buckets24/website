@@ -1,7 +1,7 @@
 const Info = [
   {
     name: "Francis Manaig",
-    title: "Software Engineer",
+    title: "Director",
     pic: "/assets/cis.png"
   },
   {
@@ -13,6 +13,11 @@ const Info = [
     name: "Rommel Paa",
     title: "Software Engineer",
     pic: "/assets/mel.jpeg"
+  },
+  {
+    name: "Maychell Alcorin",
+    title: "Software Engineer",
+    pic: "/assets/mai.jpg"
   },
   {
     name: "Carlo Carpio",

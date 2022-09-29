@@ -43,7 +43,7 @@
         </div>
         <div class="flex m-0" on:click={() => urlHash = "#team"}>
           <a
-            class={urlHash === "#services"
+            class={urlHash === "#team"
               ? "uppercase font-[700] text-primary p-3 decoration-0"
               : "uppercase font-[700] text-dark p-3 decoration-0"}
             href="#team">
