@@ -16,7 +16,7 @@
       <h4 class="text-light font-primary text-[34px] inline border-b-4 border-solid border-primary">Contact us</h4>
       <div class="text-light text-[16px] leading-[26px] font-[100] pt-[20px] m-0">Reach us in the following contact details and we will get back to you.</div>
       <div class="text-primary text-[24px] font-primary">Phone: +63 927 041 1125 / +63 927 928 0309</div>
-      <div class="text-primary text-[24px] font-primary">Email: info@devxpress.ph</div>
+      <div class="text-primary text-[24px] font-primary">Email: info.devxpress@gmail.com</div>
     </div>
   </div>
 </div>
